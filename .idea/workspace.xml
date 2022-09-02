@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c41d5f35-5753-4fc3-a150-561a9d7c8f6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ToKelvin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToFahrenheit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661816975797</updated>
-      <workItem from="1661816977891" duration="4631000" />
+      <workItem from="1661816977891" duration="18968000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio do projeto">
       <created>1661817288977</created>
@@ -139,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661821053437</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inclído classe de teste para apoio na atividade da próxima aula">
+      <created>1661821622374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661821622375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
