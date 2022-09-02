@@ -7,6 +7,7 @@ public class Principal {
         System.out.print("Digite o valor da temperatura: ");
         return input.nextDouble();
     }
+
     public static void main(String[] args) {
         double resultado;
         initialize();
@@ -17,19 +18,19 @@ public class Principal {
 
         UnityTemp unityInput = getUnityTemp("entrada (sendo as opções CELSIUS, KELVIN e FAHRENHEIT):  ");
         UnityTemp unityOutput = getUnityTemp("saída: (sendo as opções CELSIUS, KELVIN e FAHRENHEIT):  ");
-        double temp =  getTemp();
+        double temp = getTemp();
 
         System.out.println("Você vai transformar " + temp + " " + unityInput + " em " + unityOutput);
 
         switch (unityOutput) {
             case CELSIUS:
-                resultado = transformToCelsius.transform (unityInput, temp);
+                resultado = transformToCelsius.transform(unityInput, temp);
                 break;
             case FAHRENHEIT:
-                resultado = transformToFahrenheit.transform (unityInput, temp);
+                resultado = transformToFahrenheit.transform(unityInput, temp);
                 break;
             case KELVIN:
-                resultado = transformToKelvin.transform (unityInput, temp);
+                resultado = transformToKelvin.transform(unityInput, temp);
                 break;
             default:
                 resultado = 0;
@@ -37,6 +38,7 @@ public class Principal {
         }
         System.out.printf("O resultado da conversão é %.2f ", resultado);
     }
+
     private static UnityTemp getUnityTemp(String io) {
         Scanner input = new Scanner(System.in);
         System.out.print("Digite a unidade de temperatura de " + io);
