@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c41d5f35-5753-4fc3-a150-561a9d7c8f6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToCelsius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToCelsius.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToFahrenheit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToKelvin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToKelvin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +128,7 @@
       <updated>1661816975797</updated>
       <workItem from="1661816977891" duration="19273000" />
       <workItem from="1662155408744" duration="1282000" />
-      <workItem from="1662245784759" duration="3717000" />
+      <workItem from="1662245784759" duration="12857000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio do projeto">
       <created>1661817288977</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662156722987</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajuste da classe main e correção das fórmulas">
+      <created>1662317079521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662317079521</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +198,7 @@
     <MESSAGE value="Ajuste das fórmulas e conclusão da classe main" />
     <MESSAGE value="Inclusão do readme" />
     <MESSAGE value="Ajuste do readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste do readme" />
+    <MESSAGE value="Ajuste da classe main e correção das fórmulas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste da classe main e correção das fórmulas" />
   </component>
 </project>
