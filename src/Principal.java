@@ -23,27 +23,28 @@ public class Principal {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int quantidade = 0;
-        double[] temperaturas;
-        double media;
-        double mediaFinal = 0;
-        double resultado;
+        int quantity = 0;
+        double[] temperature;
+        double average;
+        double finalAverage = 0;
+        double result;
         initialize();
+
 
         System.out.print("Digite o número de temperatura(s) para conversão: ");
         try {
-            quantidade = input.nextInt();
+            quantity = input.nextInt();
         } catch (InputMismatchException e) {
             System.err.println("Você precisa digitar um número inteiro, tente novamente!");
             return;
         }
 
-        temperaturas = new double[quantidade];
+        temperature = new double[quantity];
 
-        for (int i = 0; i < quantidade; i++) {
+        for (int i = 0; i < quantity; i++) {
             System.out.print("Digite o valor da temperatura " + i + " : ");
             try {
-                temperaturas[i] = input.nextDouble();
+                temperature[i] = input.nextDouble();
             } catch (InputMismatchException e) {
                 System.err.println("Você precisa digitar um número real, tente novamente!");
                 return;
@@ -59,33 +60,33 @@ public class Principal {
         UnityTemp unityOutput = getUnityTemp("saída (sendo as opções Celsius, Kelvin ou Fahrenheit):  ");
         System.out.println("------------------------------------/------------------------------------/------------------------------------");
 
-        for (double temp : temperaturas) {
+        for (double temp : temperature) {
             System.out.println("\nVocê vai transformar " + temp + " " + unityInput + " em " + unityOutput);
 
             switch (unityOutput) {
                 case CELSIUS:
-                    resultado = transformToCelsius.transform(unityInput, temp);
+                    result = transformToCelsius.transform(unityInput, temp);
                     break;
                 case FAHRENHEIT:
-                    resultado = transformToFahrenheit.transform(unityInput, temp);
+                    result = transformToFahrenheit.transform(unityInput, temp);
                     break;
                 case KELVIN:
-                    resultado = transformToKelvin.transform(unityInput, temp);
+                    result = transformToKelvin.transform(unityInput, temp);
                     break;
                 default:
-                    resultado = 0;
+                    result = 0;
                     break;
             }
-            System.out.printf("O resultado da conversão é %.2f ", resultado);
-            mediaFinal += resultado;
+            System.out.printf("O resultado da conversão é %.2f ", result);
+            finalAverage += result;
         }
         System.out.println("\n------------------------------------/------------------------------------/------------------------------------");
-        media = Arrays.stream(temperaturas).sum();
-        media /= quantidade;
-        System.out.printf("A média das %d temperaturas iniciais é %.2f", quantidade, media);
+        average = Arrays.stream(temperature).sum();
+        average /= quantity;
+        System.out.printf("A média das %d temperaturas iniciais é %.2f", quantity, average);
 
-        mediaFinal = mediaFinal / quantidade;
-        System.out.printf("\nA média das %d temperaturas transformadas é %.2f", quantidade, mediaFinal);
+        finalAverage = finalAverage / quantity;
+        System.out.printf("\nA média das %d temperaturas transformadas é %.2f", quantity, finalAverage);
         System.out.println("\n------------------------------------/------------------------------------/------------------------------------");
     }
 }
