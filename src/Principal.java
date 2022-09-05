@@ -40,7 +40,6 @@ public class Principal {
         }
 
         temperature = new double[quantity];
-
         for (int i = 0; i < quantity; i++) {
             System.out.print("Digite o valor da temperatura " + i + " : ");
             try {
@@ -62,7 +61,6 @@ public class Principal {
 
         for (double temp : temperature) {
             System.out.println("\nVocê vai transformar " + temp + " " + unityInput + " em " + unityOutput);
-
             switch (unityOutput) {
                 case CELSIUS:
                     result = transformToCelsius.transform(unityInput, temp);
@@ -80,6 +78,7 @@ public class Principal {
             System.out.printf("O resultado da conversão é %.2f ", result);
             finalAverage += result;
         }
+
         System.out.println("\n------------------------------------/------------------------------------/------------------------------------");
         average = Arrays.stream(temperature).sum();
         average /= quantity;
