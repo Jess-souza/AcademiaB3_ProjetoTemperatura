@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41d5f35-5753-4fc3-a150-561a9d7c8f6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="c41d5f35-5753-4fc3-a150-561a9d7c8f6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +126,7 @@
       <workItem from="1662155408744" duration="1282000" />
       <workItem from="1662245784759" duration="13559000" />
       <workItem from="1662327761917" duration="45000" />
-      <workItem from="1662415770960" duration="2090000" />
+      <workItem from="1662415770960" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio do projeto">
       <created>1661817288977</created>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662326469476</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajustes dos nomes das variáveis">
+      <created>1662418510718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662418510718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +212,7 @@
     <MESSAGE value="Ajuste do readme" />
     <MESSAGE value="Ajuste da classe main e correção das fórmulas" />
     <MESSAGE value="Ajuste layout e readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste layout e readme" />
+    <MESSAGE value="Ajustes dos nomes das variáveis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes dos nomes das variáveis" />
   </component>
 </project>
