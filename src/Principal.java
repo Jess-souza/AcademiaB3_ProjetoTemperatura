@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Principal {
 
     private static void initialize() {
-        System.out.println("Bem vindo ao nosso conversor de temperaturas!");
+        System.out.println("Bem vindo ao conversor de temperaturas!");
         System.out.println("------------------------------------/------------------------------------/------------------------------------");
     }
 
@@ -38,11 +38,10 @@ public class Principal {
             System.err.println("Você precisa digitar um número inteiro, tente novamente!");
             return;
         }
-
         try {
             temperature = new double[quantity];
         } catch (NegativeArraySizeException e) {
-            System.err.println("Você precisa digitar um número real, maior que 0!");
+            System.err.println("Você precisa digitar um número inteiro, maior que 0!");
             return;
         }
         for (int i = 0; i < quantity; i++) {
