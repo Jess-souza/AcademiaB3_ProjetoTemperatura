@@ -39,7 +39,12 @@ public class Principal {
             return;
         }
 
-        temperature = new double[quantity];
+        try {
+            temperature = new double[quantity];
+        } catch (NegativeArraySizeException e) {
+            System.err.println("Você precisa digitar um número real, maior que 0!");
+            return;
+        }
         for (int i = 0; i < quantity; i++) {
             System.out.print("Digite o valor da temperatura " + i + " : ");
             try {
